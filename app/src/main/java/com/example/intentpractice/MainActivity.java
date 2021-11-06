@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         String github_link = "https://github.com/AfaqShuaib09";
         TextView textView = (TextView)findViewById(R.id.editNumFeild);
         Button btn_github = (Button)findViewById(R.id.btn_git);
+        Button btn_next = (Button) findViewById(R.id.btn_next_screen);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,6 +40,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 openWebPage(github_link);
+            }
+        });
+        btn_next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent1);
+
             }
         });
     }

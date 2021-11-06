@@ -8,5 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="slate_blue">#6A5ACD</color>
-    <color name="medium_blue">#0000CD</color>
+    <color name="medium_blue">#4267B2</color>
+    <color name="insta_pink">#cd486b</color>
+    <color name="green">#25D366</color>
+    <color name="blue_123">#325C74</color>
 </resources>
